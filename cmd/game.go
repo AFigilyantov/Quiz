@@ -21,8 +21,6 @@ func (g *Game) Start() {
 		g.DirectGame()
 	case true:
 		g.ShuffleGame()
-	default:
-
 	}
 	defer g.finish()
 }
